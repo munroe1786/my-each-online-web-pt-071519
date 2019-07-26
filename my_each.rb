@@ -1,4 +1,4 @@
-def my_each(array)
+def my_each
   length = self.count
   i = 0
   while 1 < length
