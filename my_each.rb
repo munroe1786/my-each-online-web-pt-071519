@@ -1,10 +1,10 @@
 class Array
 def my_each
   length = self.count
-  i = 0
-  while i < length
+  index = 0
+  while index < length
     yield(self[i])
-  i = i + 1
+  index += 1
     end
   end
 end
