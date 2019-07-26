@@ -2,7 +2,7 @@ class Array
 def my_each
   length = self.count
   i = 0
-  while 1 < length
+  while i < length
     yield(self[i])
   i = i + 1
     end
