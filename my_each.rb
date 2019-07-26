@@ -1,5 +1,5 @@
 class Array
-def my_each
+def my_each(words)
   length = self.count
   index = 0
   while index < length
